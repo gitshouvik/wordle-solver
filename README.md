@@ -27,7 +27,7 @@ This then gives the output
 We can enter any of the words above next on Wordle. If we enter "SCALP" and if Wordle tells us \
 (a) "c" and "a" are absent, \
 (b) "s" is at position 1 and "l" is at position 4, and \
-(c) "p" is not at position 5,
+(c) "p" is not at position 5, \
 we modify the above code to:
 ```
 wordle["slp", "oeca", {{"s", 1}, {"l", 4}}, {{"p", 5}}]
