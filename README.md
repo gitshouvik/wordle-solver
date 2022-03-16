@@ -8,6 +8,8 @@ The syntax to use the code is
 wordle["lettersToKeep","lettersToRemove",{list_of_correct_letter_positions},{list_of_wrong_positions}]
 ```
 
+To download the Mathematica file click the "Code" button above and then "Download ZIP". 
+
 ### Example
 
 If we know that \
