@@ -14,17 +14,17 @@ To download the Mathematica file click the "Code" button above and then "Downloa
 
 If we know that \
 (a) the word contains "s", "l" and "p", \
-(b) does not contain "o", "e", "c" and "a", \
-(c) "s" is located at position 1 and "l" is located at position 4, and \
-(d) "p" is not located at position 5, \
+(b) does not contain "o" and "e", \
+(c) "s" is located at position 1, and \
+(d) "l" is not at position 2 and "p" is not located at position 4, \
 the corresponding code is 
 
 ```
-wordle["slp", "oeca", {{"s", 1}, {"l", 4}}, {{"p", 5}}]
+wordle["slp", "oe", {{"s", 1}}, {{"l", 2}, {"p", 4}}]
 ```
 This then gives the output
 ```
-{"scalp", "slaps", "slips", "slump", "slurp", "spill", "splat", "splay", "split", "sylph"}
+{"scalp", "spill", "splat", "splay", "split"}
 ```
 We can enter any of the words above next on Wordle. If we enter "SCALP" and if Wordle tells us \
 (a) "c" and "a" are absent, \
