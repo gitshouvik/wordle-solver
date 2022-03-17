@@ -12,7 +12,7 @@ To download the Mathematica file click the "Code" button above and then "Downloa
 
 ### Example
 
-Let's say we enter "SLOPE" in Wordle and it tells us that:
+Let's say we enter "SLOPE" in Wordle and it tells us that: \
 (a) the word contains "s", "l" and "p", \
 (b) does not contain "o" and "e", \
 (c) "s" is located at position 1, and \
