@@ -26,7 +26,7 @@ This then gives the output
 ```
 {"scalp", "spill", "splat", "splay", "split"}
 ```
-We can enter any of the words above next on Wordle. If we enter "SCALP" and if Wordle tells us \
+We can then enter any of the above words above next on Wordle. If we enter "SCALP" and if Wordle tells us \
 (a) "c" and "a" are absent, \
 (b) "s" is at position 1 and "l" is at position 4, and \
 (c) "p" is not at position 5, \
